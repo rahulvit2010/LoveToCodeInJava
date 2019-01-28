@@ -1,0 +1,15 @@
+package com.rahul.java.designpattern.builder;
+
+public class BuilderDesignPatterntest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   Computer server= new Computer.ComputerBuilder("100GB", "80GB").Build();
+   
+   System.out.println("server is created with below configuration....");
+   System.out.println(" hard Disk=====>"+server.getHDD());
+   
+   System.out.println("RAM =====>"+server.getRAM());
+	}
+
+}

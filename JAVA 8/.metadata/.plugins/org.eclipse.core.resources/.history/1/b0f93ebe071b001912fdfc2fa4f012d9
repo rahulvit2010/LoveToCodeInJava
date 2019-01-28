@@ -1,0 +1,13 @@
+package com.rahul.java.designpattern.singleton;
+
+public class EarlyInitSingletonTest {
+
+	public static void main(String[] args) {
+		// 
+		
+		
+		System.out.println("early init test");
+
+	}
+
+}

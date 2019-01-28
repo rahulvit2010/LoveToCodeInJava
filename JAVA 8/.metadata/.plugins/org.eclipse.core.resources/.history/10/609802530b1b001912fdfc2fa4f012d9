@@ -1,0 +1,10 @@
+package com.rahul.java.designpattern.builder;
+
+public class Computer {
+private String HDD;
+private String RAM;
+private boolean graphicsEnabled;
+private boolean wifiEnabled;
+
+
+}

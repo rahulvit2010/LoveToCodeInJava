@@ -1,0 +1,29 @@
+package com.rahul.solidPrinciple.InterfaceSegregation;
+
+public class HPLaserJet implements IPrintTask {
+
+	@Override
+	public boolean printContent(String Content) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public boolean scanContent(String Content) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public boolean faxContent(String Content) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public boolean photocopyContent(String Content) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+}

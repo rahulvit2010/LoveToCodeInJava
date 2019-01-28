@@ -1,0 +1,22 @@
+package com.epam.mockito.mockito_setup.buisness;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+
+import com.epam.mockito.mockito_setup.api.TaskService;
+import com.epam.mockito.mockito_setup.api.TaskServiceStub;
+
+class TaskBuisnessImplStubTest {
+
+	@Test
+	void test() {
+		TaskService taskService= new TaskServiceStub();
+		TaskBuisnessImpl taskBuisness= new TaskBuisnessImpl(taskService);
+		List<String> filteredTask= taskBuisness.retreiveTaskRelatedToSpring("Dummy");
+		assertEquals(2,filteredTask.size());
+	}
+
+}

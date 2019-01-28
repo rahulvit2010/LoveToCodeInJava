@@ -1,0 +1,14 @@
+package com.epam.mockito.mockito_setup.buisness;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TaskBuisnessImplStubTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

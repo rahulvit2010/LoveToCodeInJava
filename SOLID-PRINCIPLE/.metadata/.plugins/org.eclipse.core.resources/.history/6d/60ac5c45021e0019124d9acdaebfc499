@@ -1,0 +1,5 @@
+package com.rahul.solidPrinciple.SingleRespoprinc;
+
+public interface ILogger {
+
+}

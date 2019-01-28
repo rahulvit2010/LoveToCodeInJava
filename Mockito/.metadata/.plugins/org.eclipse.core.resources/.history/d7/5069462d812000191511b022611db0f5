@@ -1,0 +1,12 @@
+package com.epam.mockito.mockito_setup.buisness;
+
+import org.junit.jupiter.api.Test;
+
+public class TaskBuisnessImplMockTest {
+	@Test
+	public void testRetreiveTaskRelatedToSpring_UsingAMock()
+	{
+		
+	}
+
+}

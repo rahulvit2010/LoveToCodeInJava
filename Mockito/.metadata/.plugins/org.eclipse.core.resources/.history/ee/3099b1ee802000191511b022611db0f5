@@ -1,0 +1,10 @@
+package com.epam.mockito.mockito_setup.buisness;
+
+public class TaskBuisnessImplMockTest {
+	
+	public void testRetreiveTaskRelatedToSpring_UsingAMock()
+	{
+		
+	}
+
+}

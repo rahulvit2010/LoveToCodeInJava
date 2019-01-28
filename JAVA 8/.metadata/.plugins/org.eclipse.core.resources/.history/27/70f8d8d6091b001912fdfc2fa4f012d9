@@ -1,0 +1,11 @@
+package com.rahul.java.designpattern.singleton;
+
+public class WorkerThread implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

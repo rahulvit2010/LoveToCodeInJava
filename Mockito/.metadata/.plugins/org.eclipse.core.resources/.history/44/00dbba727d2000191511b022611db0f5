@@ -1,0 +1,12 @@
+package com.epam.mockito.mockito_setup.api;
+
+public class TaskBuisnessImpl {
+	
+	private TaskService taskService;
+
+	public TaskBuisnessImpl(TaskService taskService) {
+		super();
+		this.taskService = taskService;
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.rahul.java.designpattern.singleton;
+
+public class EarlyInitSingleton {
+
+	private EarlyInitSingleton() {
+		
+	}
+
+}

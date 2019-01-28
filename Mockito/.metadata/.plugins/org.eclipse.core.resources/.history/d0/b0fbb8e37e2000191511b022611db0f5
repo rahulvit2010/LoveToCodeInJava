@@ -1,0 +1,19 @@
+package com.epam.mockito.mockito_setup.buisness;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.epam.mockito.mockito_setup.api.TaskService;
+import com.epam.mockito.mockito_setup.api.TaskServiceStub;
+
+class TaskBuisnessImplStubTest {
+
+	@Test
+	void test() {
+		TaskService taskService= new TaskServiceStub();
+		TaskBuisnessImpl taskBuisness= new TaskBuisnessImpl(taskService);
+		
+	}
+
+}

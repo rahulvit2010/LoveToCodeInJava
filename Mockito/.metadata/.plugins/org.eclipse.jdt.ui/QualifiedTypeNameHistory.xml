@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.epam.mockito.mockito_setup.buisness.TaskBuisnessImpl"/>
+<fullyQualifiedTypeName name="com.epam.mockito.mockito_setup.api.TaskServiceStub"/>
+<fullyQualifiedTypeName name="com.epam.mockito.mockito_setup.api.TaskService"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>
