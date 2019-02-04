@@ -23,4 +23,17 @@ public class TaskBuisnessImplMockTest {
 	   assertEquals(2,filteredTasks.size());
 	}
 
+
+	@Test
+	public void testRetreiveTaskRelatedToSpring_EmptyList()
+	{
+		TaskService taskServiceMock= mock(TaskService.class);
+		List<String> todos= Arrays.asList();
+		when(taskServiceMock.retreiveTasks("Dummy")).thenReturn(todos);
+		TaskBuisnessImpl taskBuisness= new TaskBuisnessImpl(taskServiceMock);
+		List<String> filteredTasks=taskBuisness.retreiveTaskRelatedToSpring("Dummy");
+
+		assertEquals(0,filteredTasks.size());
+	}
+
 }
