@@ -1,6 +1,6 @@
 Execution Steps
 ###############
-1.Unzip the blueOptima-api-rate-limit and extract to some loacatiom
+1.Unzip the lovetocode-api-rate-limit and extract to some loacatiom
 2.Import the extracted project  as Existing maven project in Eclipse.
 2. right click on ApiRateLimitApplication and run as java application
 3. open the postman and hit the below url with header (user-name)
