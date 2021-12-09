@@ -9,8 +9,8 @@
 		<version>2.2.0.RC1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.blueoptima.ratelimit</groupId>
-	<artifactId>blueoptima-api-rate-limit</artifactId>
+	<groupId>com.lovetocode.ratelimit</groupId>
+	<artifactId>lovetocode-api-rate-limit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>blueoptima-api-rate-limit</name>
 	<description>blue optima rate limiting  project</description>
